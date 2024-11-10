@@ -1,0 +1,46 @@
+/* 投稿のスタイル */
+.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #dff0d8; /* 薄緑色の背景 */
+  color: #000000; /* 黒文字 */
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px; /* 角を少し丸める */
+}
+
+/* 三点リーダーボタンのスタイル */
+.menu-button {
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ドロップダウンメニューのスタイル */
+.menu-container {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: none; /* 初期状態では非表示 */
+}
+
+.menu-container button {
+  display: block;
+  background: none;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.menu-container button:hover {
+  background-color: #f0f0f0;
+}
